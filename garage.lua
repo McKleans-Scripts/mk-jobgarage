@@ -15,7 +15,7 @@ AddEventHandler('ScriptNameHere:garage', function(bs)
     local coords = vector4(0, 0, 0, 0)  -- Position Vehicle Spawns
         if vehicle == 'panto' then   -- Vehicle Hash
             QBCore.Functions.SpawnVehicle(vehicle, function(veh)
-                SetVehicleNumberPlateText(veh, "BUSINESSNAME"..tostring(math.random(1000, 9999))) -- To have a specific Number Plate on Vehicle
+                -- SetVehicleNumberPlateText(veh, "BUSINESSNAME"..tostring(math.random(1000, 9999))) -- To have a specific Number Plate on Vehicle
                 exports['lj-fuel']:SetFuel(veh, 100.0)  -- Change for the Fuel script your using
                 SetEntityHeading(veh, coords.w)
                 TaskWarpPedIntoVehicle(PlayerPedId(), veh, -1)

@@ -1,3 +1,10 @@
+## RECOMMENDATION
+I recommend you now use Jim-JobGarage as he will keep his updated and more optimized.
+
+[Jim-JobGarage](https://github.com/jimathy/jim-jobgarage) = Job garage for grabbing job related vehicles
+
+# vv This Script is not maintanined.
+
 # garage.lua
 This is a simple business job locked garage script, This scripts spawns 1 vehicle in a set location for the specified job.
 
